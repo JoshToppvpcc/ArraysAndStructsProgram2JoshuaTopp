@@ -8,7 +8,7 @@
 using namespace std;
 const int MaxRows = 20;
 const int NCols = 8;
-const string inFile = "RuunnersText.txt";
+const string inFile = "RunnersText.txt";
 ifstream inFilie;
 
 //Read the data off of the input file
@@ -31,7 +31,7 @@ void CalcTotal(double milesRan[][NCols], double rows);
 int main()
 {
 	ifstream inFile;
-	inFile.open("RuunnersText.txt");
+	inFile.open("RunnersText.txt");
 	string runners[MaxRows];
 	double milesRan[MaxRows][NCols];
 	double numRecords;
@@ -52,7 +52,7 @@ int main()
 int GetMilesRan(string runners[], double milesRan[][NCols], int MaxRows) {
 	ifstream  inFile;
 	int rows = 0;
-	inFile.open("RuunnersText.txt");
+	inFile.open("RunnersText.txt");
 	inFile >> runners[rows];
 	while (!inFile.eof() && !(rows >= MaxRows)) {
 		for (int i = 0; i < NCols - 2; i++) {

@@ -130,6 +130,7 @@
     <ClCompile Include="ArraysAndStructsProgram2JoshuaTopp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\StructsAndArraysProjectJoshuaTopp\RunnersText.txt" />
     <Text Include="..\StructsAndArraysProjectJoshuaTopp\RuunnersText.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
