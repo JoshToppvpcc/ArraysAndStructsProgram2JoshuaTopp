@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\RuunnersText.txt">
+    <Text Include="..\StructsAndArraysProjectJoshuaTopp\RuunnersText.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
